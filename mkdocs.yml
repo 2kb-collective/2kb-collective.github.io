@@ -1,4 +1,6 @@
 site_name: 2KB Collective
 site_url: https://2kb-collective.github.io
 theme:
-  name: material
+  name: mkdocs
+  analytics:
+    gtag: G-ETPY6YYSFK
