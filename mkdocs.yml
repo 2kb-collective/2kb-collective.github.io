@@ -2,7 +2,10 @@ site_name: 2KB Collective
 site_url: https://2kb-collective.github.io
 theme:
   name: material
+  custom_dir: overrides
 extra:
   analytics:
     provider: google
     property: G-ETPY6YYSFK
+  monetization:
+    adsense: ca-pub-7939179814037367
