@@ -3,9 +3,20 @@ site_url: https://2kb-collective.github.io
 theme:
   name: material
   custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+
 plugins:
   - search
   - macros
+  - blog
+nav:
+  - index.md
+  - Posts:
+      - blog/index.md
 extra:
   analytics:
     provider: google
